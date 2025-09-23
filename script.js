@@ -3,3 +3,8 @@ function mudarFundo() {
     document.body.style.backgroundColor =
         document.body.style.backgroundColor === "lightblue" ? "#f0f0f0" : "lightblue";
 }
+function mostrarDataHora() {
+    const agora = new Date();
+    document.getElementById("data-hora").innerHTML = "Agora: " + agora.toLocaleString();
+}
+
