@@ -9,7 +9,7 @@ function mostrarDataHora() {
 }
 function mudarTexto() {
     document.getElementById("texto").innerHTML =
-        "O texto foi alterado! Clique novamente se quiser.";
+        "O texto foi alterado!";
 }
 function alternarVisibilidade() {
     const p = document.getElementById("texto-toggle");
