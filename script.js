@@ -11,5 +11,9 @@ function mudarTexto() {
     document.getElementById("texto").innerHTML =
         "O texto foi alterado! Clique novamente se quiser.";
 }
+function mudarCorTexto() {
+    const texto = document.getElementById("texto");
+    texto.style.color = texto.style.color === "red" ? "black" : "red";
+}
 
 
