@@ -11,5 +11,8 @@ function mudarTexto() {
     document.getElementById("texto").innerHTML =
         "O texto foi alterado! Clique novamente se quiser.";
 }
+function mostrarAlerta() {
+    alert("Você clicou no botão de alerta!");
+}
 
 
